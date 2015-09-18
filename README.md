@@ -1,6 +1,6 @@
 # CommonMark task Lists
 
-Implements github flavored task-lists to phpleague/commonmark
+Implements github flavored task-lists to phpleague/commonmark : https://help.github.com/articles/writing-on-github/#task-lists)
 
 ## Installation
 
@@ -29,7 +29,7 @@ $converter = new Converter(new DocParser($environment), new HtmlRenderer($enviro
 echo $converter->convertToHtml('# Hello World!');
 ```
 
-## Syntax (Examples adapted from github: https://help.github.com/articles/writing-on-github/#task-lists)
+## Syntax
 
 Lists can be turned into task lists by prefacing list items with [ ] or [x] (incomplete or complete, respectively).
 
