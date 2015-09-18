@@ -23,7 +23,7 @@ class TaskListsCheckbox extends AbstractInline
     public $data = [];
 
     /**
-     * @var string
+     * @var bool
      *
      * The checkbox status
      */
