@@ -2,6 +2,7 @@
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/lossendae/commonmark-task-lists/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/lossendae/commonmark-task-lists/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/lossendae/commonmark-task-lists/badges/build.png?b=master)](https://scrutinizer-ci.com/g/lossendae/commonmark-task-lists/build-status/master)
+[![License](https://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
 
 Implements github flavored task-lists to phpleague/commonmark : https://help.github.com/articles/writing-on-github/#task-lists)
 
