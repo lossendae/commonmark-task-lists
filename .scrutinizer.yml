@@ -6,8 +6,6 @@ checks:
     php:
         code_rating: true
         duplication: true
-        loops_must_use_braces:
-            enabled: true
 
 tools:
     php_mess_detector: true
