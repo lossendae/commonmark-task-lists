@@ -1,0 +1,24 @@
+{
+    "name": "lossendae/commonmark-task-lists",
+    "type": "library",
+    "description": "Github Task Lists for CommonMark PHP implementation",
+    "keywords": ["markdown","checklists","task-lists","commonmark"],
+    "homepage": "https://github.com/lossendae/commonmark-task-lists.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephane Boulard",
+            "email": "lossendae@gmail.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "league/commonmark": "0.10.*|0.11.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lossendae\\CommonMark\\TaskLists\\": "src"
+        }
+    }
+}

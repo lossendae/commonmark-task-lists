@@ -1,0 +1,14 @@
+build:
+    environment:
+        php: "5.6.0"
+
+checks:
+    php:
+        code_rating: true
+        duplication: true
+        loops_must_use_braces:
+            enabled: true
+
+tools:
+    php_mess_detector: true
+    sensiolabs_security_checker: true
