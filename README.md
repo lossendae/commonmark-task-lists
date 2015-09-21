@@ -26,7 +26,7 @@ use Lossendae\CommonMark\TaskLists\TaskListsCheckboxRenderer;
 
 $environment = Environment::createCommonMarkEnvironment();
 $environment->addInlineRenderer('Lossendae\CommonMark\TaskLists\TaskListsCheckbox', new TaskListsCheckboxRenderer());
-$environment->addInlineParser(new CloseTaskListsParser());
+$environment->addInlineParser(new TaskListsParser());
 
 $converter = new Converter(new DocParser($environment), new HtmlRenderer($environment));
 
