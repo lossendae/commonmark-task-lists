@@ -21,7 +21,7 @@ use League\CommonMark\Converter;
 use League\CommonMark\DocParser;
 use League\CommonMark\Environment;
 use League\CommonMark\HtmlRenderer;
-use Lossendae\CommonMark\TaskLists\CloseTaskListsParser;
+use Lossendae\CommonMark\TaskLists\TaskListsParser;
 use Lossendae\CommonMark\TaskLists\TaskListsCheckboxRenderer;
 
 $environment = Environment::createCommonMarkEnvironment();
