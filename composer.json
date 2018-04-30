@@ -16,10 +16,16 @@
         "php": ">=5.4",
         "league/commonmark": "0.11.*"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
     "autoload": {
         "psr-4": {
             "Lossendae\\CommonMark\\TaskLists\\": "src"
         }
+    },
+    "config": {
+        "bin-dir": "bin"
     },
     "extra": {
         "branch-alias": {
