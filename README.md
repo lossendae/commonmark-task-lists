@@ -4,6 +4,9 @@
 [![Build Status](https://scrutinizer-ci.com/g/lossendae/commonmark-task-lists/badges/build.png?b=master)](https://scrutinizer-ci.com/g/lossendae/commonmark-task-lists/build-status/master)
 [![License](https://poser.pugx.org/lossendae/commonmark-task-lists/license)](https://packagist.org/packages/lossendae/commonmark-task-lists)
 
+
+> This project is deprecated, please use the extension provided by phpleague : [GFM-style task list extension for league/commonmark](https://github.com/thephpleague/commonmark-ext-task-list) 
+
 Implements github flavored task-lists to phpleague/commonmark : https://help.github.com/articles/writing-on-github/#task-lists)
 
 ## Installation
